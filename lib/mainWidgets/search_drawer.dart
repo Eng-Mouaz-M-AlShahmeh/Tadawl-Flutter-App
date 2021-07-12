@@ -1967,7 +1967,7 @@ class _SearchDrawerState extends State<SearchDrawer> {
                       placeType: PlaceType.address,
                       placeholder:
                           AppLocalizations.of(context).currentMapLocation,
-                      apiKey: 'AIzaSyAaY9NEnamyi3zfnKhAZXxjLml_5gf1G7g',
+                      apiKey: '',
                       onSelected: (Place place) async {
                         var geolocation = await place.geolocation;
                         searchDrawer.setRegionPosition(geolocation.coordinates);

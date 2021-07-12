@@ -24,7 +24,7 @@
 
         <!-- TODO: Add your API key here -->
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAaY9NEnamyi3zfnKhAZXxjLml_5gf1G7g"/>
+            android:value=""/>
 
         <activity
             android:showWhenLocked="true"

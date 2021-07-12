@@ -15,7 +15,7 @@ import GoogleMaps
     }
 
     // TODO: Add your API key
-    GMSServices.provideAPIKey("AIzaSyAaY9NEnamyi3zfnKhAZXxjLml_5gf1G7g")
+    GMSServices.provideAPIKey("")
 
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }

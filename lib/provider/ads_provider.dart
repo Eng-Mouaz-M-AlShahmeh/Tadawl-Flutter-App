@@ -2203,7 +2203,7 @@ class AdsProvider extends ChangeNotifier {
     _adss_cordinates_lng = position.target.longitude;
 
     var addresses = await Geocoder.google(
-            'AIzaSyAaY9NEnamyi3zfnKhAZXxjLml_5gf1G7g',
+            '',
             language: 'ar')
         .findAddressesFromCoordinates(
             Coordinates(_adss_cordinates_lat, _adss_cordinates_lng));
@@ -2796,7 +2796,7 @@ class AdsProvider extends ChangeNotifier {
     _customCameraPositionAddAds =
         LatLng(_ads_cordinates_latAddAds, _ads_cordinates_lngAddAds);
     var addresses = await Geocoder.google(
-            'AIzaSyAaY9NEnamyi3zfnKhAZXxjLml_5gf1G7g',
+            '',
             language: 'ar')
         .findAddressesFromCoordinates(
             Coordinates(_ads_cordinates_latAddAds, _ads_cordinates_lngAddAds));

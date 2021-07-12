@@ -1,0 +1,62 @@
+# Developed by: Eng Mouaz M. Al-Shahmeh
+name: tadawl_app
+description: Real-Estate Tadawl App .
+publish_to: 'none'
+version: 1.0.3+7
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons:
+  google_maps_flutter:
+  location: ^3.2.4
+  location_permissions: ^3.0.0+1
+  http: ^0.12.0+1
+  share: ^0.6.5+4
+  url_launcher: ^5.7.10
+  fluttertoast: ^7.1.6
+  image_picker: ^0.6.7+22
+  whatsapp_unilink: ^1.0.0+1
+  flutter_switch: ^0.2.0
+  video_player: ^1.0.1
+  shared_preferences:
+  image: ^2.1.19
+  animated_splash_screen: ^1.0.1+2
+  intl:
+  timeago: ^2.0.29
+  jiffy:
+  flutter_absolute_path:
+  multi_image_picker: ^4.7.15
+  geocoder: ^0.2.1
+  flutter_phone_direct_caller: ^1.0.1
+  path_provider:
+  pinch_zoom_image_last: ^0.3.2
+  number_display: ^3.0.0
+  charts_flutter:
+  geolocator:
+  provider: ^5.0.0
+  rating_dialog: ^2.0.0
+  flutter_simple_rating_bar: ^0.0.3
+  get_it: ^6.0.0
+  google_fonts:
+  dcache:
+  search_map_place:
+  flutter_local_notifications:
+  file_picker:
+  chewie:
+  #flutter_automation:
+  qr_flutter:
+  #flutter_video_compress:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.0
+  build_runner: ^1.10.6
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
